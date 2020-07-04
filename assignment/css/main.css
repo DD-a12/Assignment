@@ -1,0 +1,147 @@
+div#header-background{
+    background-color: tomato;
+    width: auto;
+}
+.ui-page-theme-a .ui-btn{
+    background-color: white;    
+}
+.ui-page-theme-a .ui-btn{
+    text-shadow: none;
+}
+.ui-page-theme-a .ui-btn:hover{
+    background-color: #f0ffff;
+    text-shadow: none;
+}
+
+
+.ui-btn.ui-btn-icon-notext.ui-icon-plus.ui-btn-a{
+    background-color: turquoise;
+    transition: background-color 1s ease;
+}
+
+.ui-btn.ui-btn-icon-notext.ui-icon-plus.ui-btn-a:hover{
+    background-color: teal;
+}
+
+.ui-btn.ui-btn-icon-notext.ui-icon-minus.ui-btn-a{
+    background-color: tomato;
+    transition: background-color 1s ease;
+}
+
+.ui-btn.ui-btn-icon-notext.ui-icon-minus.ui-btn-a:hover{
+    background-color: red;
+}
+
+.sizeButton{
+    border-radius: 7px;
+    background-color: white;
+    transition: background-color 1s ease;
+}
+
+.sizeButton:hover{
+    background-color: turquoise;
+}
+
+.sizeButton:focus{
+    background-color: teal;
+}
+
+button.countButton{
+    font-size: 10px;
+    border-radius: 30px;
+    margin: 0.5em;
+    border-color: white;
+    transition: background-color 1s ease;
+}
+
+button.countButton.Increase{
+    background-color: turquoise;
+}
+
+button.countButton.Increase:hover{
+    background-color: teal;
+}
+
+button.countButton.Decrease{
+    background-color: tomato;
+}
+
+button.countButton.Decrease:hover{
+    background-color: red;
+}
+
+button#countDecreaseButton{
+    margin-left: 3em;
+    border-radius: 16px;
+    font-size: 10px;
+    background-color:white;
+    transition: background-color 1s ease;
+}
+
+button#countDecreaseButton:hover{
+    background-color: tomato;
+}
+
+.header-font-color{
+    color: white;
+}
+
+.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content.ui-collapsible-collapsed{
+    width: 50%;
+    position: fixed;
+    top: 77%;
+}
+.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content{
+    position: relative;
+    top: 80%;
+}
+
+a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit{
+    background-color: turquoise;
+    transition: background-color 1s ease;
+}
+
+a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit:hover{
+    background-color: teal;
+}
+
+a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-minus{
+    background-color: tomato;
+    transition: background-color 1s ease;
+}
+
+a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-minus:hover{
+    background-color: red;
+}
+
+.food-pictures{
+    border-radius: 17px;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    height: 100%;
+}
+
+.countContainer{
+    display: flex;
+}
+
+.ui-footer.ui-bar-inherit.ui-footer-fixed{
+    background-color: tomato;
+}
+
+p{
+    font-style: italic;
+}
+
+.ui-listview>li h2{
+    font-size: 0.8em;
+}
+
+.zoom{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 90%x;
+    height: 30%px;
+    margin: 0 auto;
+}
+
